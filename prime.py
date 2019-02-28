@@ -13,7 +13,7 @@ def isPrime(n):
     return True
 
 
-def CheckPrime(n):
+def checkPrime(n):
     for i in range (2, n + 1):
         if isPrime(i):
             print(i, end = " ")
@@ -22,4 +22,4 @@ def CheckPrime(n):
 if __name__ == '__main__':
     n = input("Enter the value of N")
     q = int (n)
-    printPrime (q)
+    checkPrime (q)
